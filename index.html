@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panda Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="Custom styles/style.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- header -->
+    <header class="container">
+        <!-- navbar -->
+        <nav id="navigation-top" class="navbar navbar-expand-lg p-4">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="Assets/logo.png" alt="Brand logo - Panda Commerce"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes-section">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bags-section">Bags</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq-section">FAQ & Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item panda-bg-info rounded-3 p-5 active">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Headphone</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quaerat. Lorem ipsum
+                                dolor sit amet consectetur, adipisicing elit. Deserunt, placeat.</p>
+                            <h1 class="banner-product-price">$600</h1>
+                            <button class="panda-btn panda-btn-success">Buy now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="Assets/banner-images/headphone.png" class="d-block w-100 mt-5 mt-lg-0"
+                                alt="Headphone">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item panda-bg-info rounded p-5">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Mega LCD TV</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quaerat. Lorem ipsum
+                                dolor sit amet consectetur, adipisicing elit. Deserunt, placeat.</p>
+                            <h1 class="banner-product-price">$1200</h1>
+                            <button class="panda-btn panda-btn-success">Buy now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="Assets/banner-images/tv-removebg-preview.png
+                            " class="d-block w-100 mt-5 mt-lg-0" alt="Mega LCD TV">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item panda-bg-info rounded p-5">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>X-box</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quaerat. Lorem ipsum
+                                dolor sit amet consectetur, adipisicing elit. Deserunt, placeat.</p>
+                            <h1 class="banner-product-price">$450</h1>
+                            <button class="panda-btn panda-btn-success">Buy now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="Assets/banner-images/xbox.png" class="mt-5 mt-lg-0 d-block w-100" alt="X-Box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- categories -->
+        <div class="container my-5">
+            <h1 class="mb-4">Categories</h1>
+            <div class="row g-2">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div
+                        class="p-3 border panda-bg-warning d-flex align-items-center justify-content-around border rounded-3">
+                        <h1 class="text-light">Watch</h1>
+                        <img src="Assets/categories/watch.png" alt="Categories - Watch">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div
+                        class="p-3 border panda-bg-danger d-flex align-items-center justify-content-around border rounded-3">
+                        <h1 class="text-light">Bag</h1>
+                        <img src="Assets/categories/bag.png" alt="Categories - Bag">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div
+                        class="p-3 border panda-bg-primary d-flex align-items-center justify-content-around border rounded-3">
+                        <h1 class="text-light">Shoes</h1>
+                        <img src="Assets/categories/shoes.png" alt="Categories - Shoes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="panda-bg-neutral pt-3 pt-lg-5">
+        <!-- shoes -->
+        <section class="container" id="shoes-section">
+            <h1 class="mb-4">Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border border-0 text-center">
+                        <img src="Assets/shoes/shoe-1.png" class="card-img-top" alt="Reebok All Terrain">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Reebok All Terrain</h4>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                            <h5 class="mb-3">$11</h5>
+                            <button class="panda-btn-black">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border border-0 text-center">
+                        <img src="Assets/shoes/shoe-2.png" class="card-img-top" alt="Reebok Pump">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Reebok Pump</h4>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                            <h5 class="mb-3">$8</h5>
+                            <button class="panda-btn-black">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border border-0 text-center">
+                        <img src="Assets/shoes/shoe-3.png" class="card-img-top" alt="Reebok Dart Men’s Shoes">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Reebok Dart Men’s Shoes</h4>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                            <h5 class="mb-3">$7</h5>
+                            <button class="panda-btn-black">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bags -->
+        <section class="container mt-3 mt-lg-5" id="bags-section">
+            <h1 class="mb-4">Bags</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border border-0 text-center">
+                        <img src="Assets/bags/bag-1.png" class="card-img-top" alt="Red OGIO">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Red OGIO</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                            <h5 class="mb-3">$12</h5>
+                            <button class="panda-btn-black">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border border-0 text-center">
+                        <img src="Assets/bags/bag-2.png" class="card-img-top" alt="BURTON 115">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">BURTON 115</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                            <h5 class="mb-3">$18</h5>
+                            <button class="panda-btn-black">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border border-0 text-center">
+                        <img src="Assets/bags/bag-3.png" class="card-img-top" alt="Camel Mountain - BLK784">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Camel Mountain - BLK784</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                            <h5 class="mb-3">$22</h5>
+                            <button class="panda-btn-black">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="container mt-3 mt-lg-5 pb-5" id="faq-section">
+            <h1 class="mb-4">FAQ</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Do we have any physical location or show-room?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cum, aut itaque
+                            quibusdam amet repudiandae. Earum inventore, repellendus quia quod, fuga commodi, pariatur
+                            quisquam eaque consectetur sint accusantium recusandae amet illum. Numquam voluptatem
+                            adipisci cumque saepe sequi ipsa inventore unde animi odio nisi ratione reiciendis in, eaque
+                            voluptatibus dignissimos pariatur.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do we have any more products or categories?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quisquam explicabo laborum odio
+                            pariatur ut ab eligendi distinctio amet qui vel, quibusdam repudiandae ea sapiente nulla
+                            illo nemo doloremque autem minus excepturi. Nulla porro officiis, delectus aspernatur iure
+                            repellat voluptate odio distinctio accusamus, quae optio quo rem nemo impedit obcaecati?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            When do we give discounts?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, nisi natus? Itaque
+                            officia libero blanditiis at perspiciatis error, cum nisi pariatur quod, odio nostrum unde
+                            saepe aliquid earum repudiandae nobis culpa nihil quae molestias deserunt laboriosam ex!
+                            Eaque officia veritatis sunt commodi molestiae inventore. Blanditiis quas soluta
+                            consequuntur corporis modi?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="container mt-3 mt-lg-5 pb-5 text-center">
+            <h3 class="mb-2">LET'S STAY IN TOUCH</h3>
+            <p>Get updates on sales specials and more</p>
+            <!-- Modal button -->
+            <button type="button" class="panda-btn panda-btn-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Send message
+            </button>
+            <!-- Modal body -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Send your message</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Message</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="panda-btn-black">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="p-5 panda-bg-info">
+        <div>
+            <p class="text-center mt-2">Copyright claim ©2022. Panda Commerce</p>
+            <p class="text-center mt-2">All rights reserved</p>
+            <p class="text-center mt-2">Sofia, Bulgaria.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

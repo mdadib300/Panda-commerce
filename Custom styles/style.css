@@ -1,0 +1,39 @@
+.panda-bg-info {
+    background-color: #fceae8;
+}
+
+.panda-bg-neutral {
+    background-color: #F4F4F4;
+}
+
+.panda-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.panda-btn-black {
+    background-image: linear-gradient(to bottom, #202020 0%, #000000 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 25px;
+}
+
+.banner-product-price {
+    color: #FF136F;
+}
+
+.panda-bg-warning {
+    background-color: #FF5182;
+}
+
+.panda-bg-danger {
+    background-color: #47BCE8;
+}
+
+.panda-bg-primary {
+    background-color: #9562FF;
+}
